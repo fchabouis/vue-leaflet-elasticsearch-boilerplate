@@ -1,0 +1,16 @@
+{
+  "basemaps": {
+    "Vanilla OSM": {
+        "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+        "attribution": "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>"
+    },
+    "B&W Carto OSM": {
+        "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+        "attribution": "&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, &copy; <a href='https://carto.com/attribution'>CARTO</a>"
+    }
+  },
+  "mapInitialView":{
+    "center": [45.853459, 2.349312],
+    "zoom": 6
+  }
+}
