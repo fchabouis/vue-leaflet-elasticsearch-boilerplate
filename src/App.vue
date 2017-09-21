@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <theMap></theMap>
+    <sidebar id="left-sidebar" class="sidebar collapsed"></sidebar>
+    <theMap class="sidebar-map"></theMap>
   </div>
 </template>
 
 <script>
 import theMap from './components/map'
+import sidebar from './components/sidebar'
 import 'bootstrap/dist/css/bootstrap.css'
 
 export default {
   name: 'app',
   components: {
-    theMap
+    theMap,
+    sidebar
   }
 }
 </script>

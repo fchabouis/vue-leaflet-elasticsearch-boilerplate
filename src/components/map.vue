@@ -6,6 +6,8 @@
 <script>
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import 'sidebar-v2/js/leaflet-sidebar.js'
+import 'sidebar-v2/css/leaflet-sidebar.css'
 
 import config from '../assets/config/config.json'
 import { mapGetters, mapState } from 'vuex'
@@ -37,6 +39,8 @@ export default {
     this.tileLayer = L.tileLayer(this.basemapUrl, {
       attribution: this.basemapAttribution
     }).addTo(this.map)
+
+    L.control.sidebar('left-sidebar').addTo(this.map)
   }
 }
 </script>
