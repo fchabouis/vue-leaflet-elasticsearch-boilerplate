@@ -6,6 +6,7 @@
 
 <script>
 import theMap from './components/map'
+import 'bootstrap/dist/css/bootstrap.css'
 
 export default {
   name: 'app',
