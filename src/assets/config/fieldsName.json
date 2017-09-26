@@ -1,0 +1,20 @@
+{
+    "geojson": {
+        "regions_boundaries": {
+            "id": "NOM_REG",
+            "displayName": "NOM_REG"
+        },
+        "departments_boundaries": {
+            "id": "CODE_DEPT",
+            "displayName": "NOM_DEPT"
+        }
+    },
+    "data": {
+        "regions_aggregation": {
+            "index1": "NOM_REG"
+        },
+        "departments_aggregation": {
+            "index1": "dep"
+        }
+    }
+}
